@@ -34,4 +34,8 @@ class Sorter {
   }
 }
 
-module.exports = Sorter;
+sorter = new Sorter();
+sorter.add(5);
+
+console.log(sorter.toArray(), [5]);
+console.log(sorter.length, 1);
